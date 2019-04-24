@@ -16,8 +16,8 @@ public class JDBCApplication implements CommandLineRunner {
     public void run(String... args) throws Exception {
         //studentDao.insertData();
         //studentDao.batchInsertData();
-        studentDao.insertData2();
-        log.info("新增success");
-        studentDao.listData();
+        //studentDao.insertData2();
+        //log.info("新增success");
+        //studentDao.listData();
     }
 }

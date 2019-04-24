@@ -51,6 +51,7 @@ public class DataSourceConfig {
         return dataSourceProperties.initializeDataSourceBuilder().type(com.alibaba.druid.pool.DruidDataSource.class).build();
     }
     @Bean(name = "secondTxManager")
+    @Primary
     public PlatformTransactionManager secondTxManager() {
         return new DataSourceTransactionManager(secondDataSource());
     }
