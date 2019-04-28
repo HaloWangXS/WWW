@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.orm.mapper.StudentMapper">
+  <resultMap id="BaseResultMap" type="com.spring.orm.model.Student">
+    <id column="sno" jdbcType="VARCHAR" property="sno" />
+    <result column="sname" jdbcType="VARCHAR" property="sname" />
+    <result column="ssex" jdbcType="VARCHAR" property="ssex" />
+    <result column="sbirthday" jdbcType="TIMESTAMP" property="sbirthday" />
+    <result column="sclass" jdbcType="VARCHAR" property="sclass" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from STUDENT
+    where sno = #{sno,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.spring.orm.model.Student">
+    insert into STUDENT (sno, sname, ssex, 
+      sbirthday, sclass)
+    values (#{sno,jdbcType=VARCHAR}, #{sname,jdbcType=VARCHAR}, #{ssex,jdbcType=VARCHAR}, 
+      #{sbirthday,jdbcType=TIMESTAMP}, #{sclass,jdbcType=VARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.spring.orm.model.Student">
+    update STUDENT
+    set sname = #{sname,jdbcType=VARCHAR},
+      ssex = #{ssex,jdbcType=VARCHAR},
+      sbirthday = #{sbirthday,jdbcType=TIMESTAMP},
+      sclass = #{sclass,jdbcType=VARCHAR}
+    where sno = #{sno,jdbcType=VARCHAR}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select sno, sname, ssex, sbirthday, sclass
+    from STUDENT
+    where sno = #{sno,jdbcType=VARCHAR}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select sno, sname, ssex, sbirthday, sclass
+    from STUDENT
+  </select>
+</mapper>
