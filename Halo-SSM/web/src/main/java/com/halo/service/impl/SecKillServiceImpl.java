@@ -5,6 +5,7 @@ import com.halo.dao.SuccessKilledDao;
 import com.halo.model.entity.SecKill;
 import com.halo.service.SecKillService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Random;
 
@@ -13,6 +14,7 @@ import java.util.Random;
  * @author: wangyanyang
  * @create: 2019-06-16 22:24
  **/
+@Service
 public class SecKillServiceImpl implements SecKillService {
     @Autowired
     private SecKillDao secKillDao;
@@ -20,7 +22,7 @@ public class SecKillServiceImpl implements SecKillService {
     private SuccessKilledDao successKilledDao;
 
     @Override
-    public Boolean executeSecKill(long secKillId, long userPhone, int buys) {
+    public Boolean executeSecKill(long secKillId, String userPhone, int buys) {
         // 1. 查询库存,以及版本号
         SecKill secKill = secKillDao.queryById(secKillId);
         if(null == secKill) {

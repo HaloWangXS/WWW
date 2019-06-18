@@ -15,7 +15,7 @@ public class SuccessKilled {
 
     private Long secKillId;
 
-    private Long userPhone;
+    private String userPhone;
 
     private Short state;
 

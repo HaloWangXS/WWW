@@ -13,5 +13,5 @@ public interface SecKillService {
      * @param buys
      * @return
      */
-    public Boolean executeSecKill(long secKillId,long userPhone,int buys);
+    public Boolean executeSecKill(long secKillId,String userPhone,int buys);
 }

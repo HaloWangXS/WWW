@@ -9,5 +9,5 @@ public interface SuccessKilledDao {
      * @param userPhone
      * @return插入的行数
      */
-    int insertSuccessKilled(@Param("secKillId") long secKillId, @Param("userPhone") long userPhone, @Param("buys") int buys);
+    int insertSuccessKilled(@Param("secKillId") long secKillId, @Param("userPhone") String userPhone, @Param("buys") int buys);
 }
