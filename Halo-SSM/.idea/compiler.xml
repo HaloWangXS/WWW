@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
+        <module name="halo-api" />
         <module name="halo-web" />
         <module name="web" />
-        <module name="halo-api" />
       </profile>
     </annotationProcessing>
   </component>

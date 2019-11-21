@@ -17,15 +17,13 @@
            http://www.springframework.org/schema/tx
            http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
 
-    <!--将静态资源交由默认的servlet处理-->
-    <mvc:default-servlet-handler />
-    <!-- 扫描controller（controller层注入） -->
-    <context:component-scan base-package="com.halo.json"/>
-    <!--将自定义的sweager配置加载到Spring容器-->
-    <bean class="com.halo.config.SwaggerConfig"></bean>
-
     <!-- 启动注解支持 -->
     <mvc:annotation-driven />
+    <!-- 扫描controller（controller层注入） -->
+    <context:component-scan base-package="com.halo.json"/>
+
+    <!--将静态资源交由默认的servlet处理-->
+    <mvc:default-servlet-handler />
 
     <!-- 静态资源 -->
     <!--<mvc:resources location="/WEB-INF/js/" mapping="/js/**"/>-->

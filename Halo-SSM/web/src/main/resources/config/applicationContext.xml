@@ -5,6 +5,7 @@
        xmlns:aop="http://www.springframework.org/schema/aop"
        xmlns:tx="http://www.springframework.org/schema/tx"
        xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:rdb="http://www.dangdang.com/schema/ddframe/rdb"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
             http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
            http://www.springframework.org/schema/context
@@ -12,28 +13,21 @@
            http://www.springframework.org/schema/aop
            http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
            http://www.springframework.org/schema/tx
-           http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+           http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+           http://www.dangdang.com/schema/ddframe/rdb
+           http://www.dangdang.com/schema/ddframe/rdb/rdb.xsd">
 
     <!-- jdbc配置 -->
-    <context:property-placeholder location="classpath:config/jdbc.properties" />
-
-    <!-- 自动将Service层注入-->
-    <context:component-scan base-package="com.halo.service" />
-
-    <!--向容器自动注入配置-->
-    <context:annotation-config />
-
-    <!-- sweager -->
-    <bean class="com.halo.config.SwaggerConfig"/>
+    <context:property-placeholder location="classpath:config/*.properties" ignore-unresolvable="true" />
 
     <!-- dbcp数据源 -->
-    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init"
+    <bean id="db0" class="com.alibaba.druid.pool.DruidDataSource" init-method="init"
           destroy-method="close">
         <!--这里如果写成${jdbc.driver}，就会出现加载jdbc驱动失败的问题，暂时不清楚什么原因-->
-        <property name="driverClassName" value="${jdbc.driver}" />
-        <property name="url" value="${jdbc.url}" />
-        <property name="username" value="${jdbc.username}" />
-        <property name="password" value="${jdbc.password}" />
+        <property name="driverClassName" value="${jdbc.driver_0}" />
+        <property name="url" value="${jdbc.url_0}" />
+        <property name="username" value="${jdbc.username_0}" />
+        <property name="password" value="${jdbc.password_0}" />
 
         <!-- 连接池最大使用连接数 -->
         <property name="maxActive" value="20"/>
@@ -53,12 +47,84 @@
         <property name="connectionProperties" value="clientEncoding=UTF-8"/>
     </bean>
 
-    <!-- 启动注解支持 -->
-    <bean id = "secKillService" class="com.halo.service.impl.SecKillServiceImpl"></bean>
+
+    <!-- dbcp数据源 -->
+    <bean id="db1" class="com.alibaba.druid.pool.DruidDataSource" init-method="init"
+          destroy-method="close">
+        <!--这里如果写成${jdbc.driver}，就会出现加载jdbc驱动失败的问题，暂时不清楚什么原因-->
+        <property name="driverClassName" value="${jdbc.driver_1}" />
+        <property name="url" value="${jdbc.url_1}" />
+        <property name="username" value="${jdbc.username_1}" />
+        <property name="password" value="${jdbc.password_1}" />
+
+        <!-- 连接池最大使用连接数 -->
+        <property name="maxActive" value="20"/>
+        <!-- 初始化连接大小 -->
+        <property name="initialSize" value="1"/>
+        <!-- 获取连接最大等待时间 -->
+        <property name="maxWait" value="60000"/>
+        <!-- 连接池最大空闲 -->
+        <property name="maxPoolPreparedStatementPerConnectionSize" value="20"/>
+        <!-- 连接池最小空闲 -->
+        <property name="minIdle" value="3"/>
+        <!-- 自动清除无用连接 -->
+        <property name="removeAbandoned" value="true"/>
+        <!-- 清除无用连接的等待时间 -->
+        <property name="removeAbandonedTimeout" value="180"/>
+        <!-- 连接属性 -->
+        <property name="connectionProperties" value="clientEncoding=UTF-8"/>
+    </bean>
+
+    <!-- dbcp数据源 -->
+    <bean id="db2" class="com.alibaba.druid.pool.DruidDataSource" init-method="init"
+          destroy-method="close">
+        <!--这里如果写成${jdbc.driver}，就会出现加载jdbc驱动失败的问题，暂时不清楚什么原因-->
+        <property name="driverClassName" value="${jdbc.driver_2}" />
+        <property name="url" value="${jdbc.url_2}" />
+        <property name="username" value="${jdbc.username_2}" />
+        <property name="password" value="${jdbc.password_2}" />
+
+        <!-- 连接池最大使用连接数 -->
+        <property name="maxActive" value="20"/>
+        <!-- 初始化连接大小 -->
+        <property name="initialSize" value="1"/>
+        <!-- 获取连接最大等待时间 -->
+        <property name="maxWait" value="60000"/>
+        <!-- 连接池最大空闲 -->
+        <property name="maxPoolPreparedStatementPerConnectionSize" value="20"/>
+        <!-- 连接池最小空闲 -->
+        <property name="minIdle" value="3"/>
+        <!-- 自动清除无用连接 -->
+        <property name="removeAbandoned" value="true"/>
+        <!-- 清除无用连接的等待时间 -->
+        <property name="removeAbandonedTimeout" value="180"/>
+        <!-- 连接属性 -->
+        <property name="connectionProperties" value="clientEncoding=UTF-8"/>
+    </bean>
+    <!--分库部分-->
+    <rdb:strategy id="orderTableStrategy" sharding-columns="order_id" algorithm-expression="t_order_${order_id.longValue() % 2}"/>
+    <rdb:strategy id="databaseStrategy" sharding-columns="user_id" algorithm-expression="db${user_id.longValue() % 3}"/>
+    <rdb:data-source id="shardingDataSource">
+        <!--初始化整个shrading-jdbc框架  -->
+        <rdb:sharding-rule data-sources="db0,db1,db2">
+            <rdb:table-rules>
+                <!--表规则配置映射-->
+                <rdb:table-rule logic-table="t_order" actual-tables="db${0..2}.t_order_${0..1}" table-strategy="orderTableStrategy" database-strategy="databaseStrategy"/>
+            </rdb:table-rules>
+            <!--&lt;!&ndash;默认分库策略&ndash;&gt;-->
+            <!--<rdb:default-database-strategy sharding-columns="" ></rdb:default-database-strategy>-->
+            <!--&lt;!&ndash;默认分表策略&ndash;&gt;-->
+            <!--<rdb:default-table-strategy sharding-columns=""></rdb:default-table-strategy>-->
+        </rdb:sharding-rule>
+        <rdb:props>
+            <prop key="sql.show">true</prop>
+        </rdb:props>
+    </rdb:data-source>
+
 
     <!-- mybatis的配置文件 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <property name="dataSource" ref="dataSource"/>
+        <property name="dataSource" ref="shardingDataSource"/>
         <property name="configLocation" value="classpath:config/mybatis-config.xml"/>
         <property name="mapperLocations" value="classpath*:sqlmap/*.xml"/>
     </bean>
@@ -69,31 +135,12 @@
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
 
-    <!--事务-->
-    <bean id="transactionManager"
-          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="dataSource"/>
-    </bean>
-    <tx:advice id="txAdvice" transaction-manager="transactionManager">
-        <tx:attributes>
-            <!-- 写操作 -->
-            <tx:method name="insert*" propagation="REQUIRED" isolation="DEFAULT"/>
-            <tx:method name="update*" propagation="REQUIRED" isolation="DEFAULT"/>
-            <tx:method name="delete*" propagation="REQUIRED" isolation="DEFAULT"/>
-            <tx:method name="batch*" propagation="REQUIRED" isolation="DEFAULT"/>
-
-            <!-- 读操作 -->
-            <tx:method name="load*" propagation="REQUIRED" isolation="DEFAULT" read-only="true"/>
-            <tx:method name="get*" propagation="REQUIRED" isolation="DEFAULT" read-only="true"/>
-            <tx:method name="find*" propagation="REQUIRED" isolation="DEFAULT" read-only="true"/>
-
-            <tx:method name="*" propagation="REQUIRED" isolation="DEFAULT"/>
-        </tx:attributes>
-    </tx:advice>
-
-    <aop:config>
-        <aop:pointcut id="pc" expression="execution(public * com.halo.service.*.*(..))"/>
-        <!--把事务控制在Service层-->
-        <aop:advisor advice-ref="txAdvice" pointcut-ref="pc"/>
-    </aop:config>
+    <!--上述是ssm框架中 dao层配置信息-->
+    <bean id = "sequenceIdGenerator" class="com.halo.utils.SequenceIdGenerator"></bean>
+    <bean id="requestLogAspect" class="com.halo.aspect.RequestLogAspect"></bean>
+    <!--向容器自动注入配置-->
+    <context:annotation-config />
+    <context:component-scan base-package="com.halo.service" />
+    <context:component-scan base-package="com.halo.query" />
+    <!--上述是ssm框架中 service层配置-->
 </beans>

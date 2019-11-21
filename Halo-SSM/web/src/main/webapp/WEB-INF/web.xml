@@ -39,7 +39,7 @@
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
   <servlet>
-    <servlet-name>spring</servlet-name>
+    <servlet-name>halo</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
     <init-param>
       <param-name>contextConfigLocation</param-name>
@@ -47,11 +47,11 @@
         classpath:config/spring-mvc.xml
       </param-value>
     </init-param>
-    <load-on-startup>2</load-on-startup>
+    <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
-    <servlet-name>spring</servlet-name>
-    <url-pattern>*.do</url-pattern>
+    <servlet-name>halo</servlet-name>
+    <url-pattern>/</url-pattern>
   </servlet-mapping>
   <filter>
     <filter-name>sitemesh</filter-name>

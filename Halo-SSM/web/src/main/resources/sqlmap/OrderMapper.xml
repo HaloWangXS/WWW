@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.halo.dao.OrderMapper">
+
+    <resultMap id="BaseResultMap" type="com.halo.model.entity.TOrder">
+        <result column="user_id" property="userId"/>
+        <result column="order_id" property="orderId"/>
+        <result column="order_no" property="orderNo"/>
+        <result column="isactive" property="isactive"/>
+        <result column="inserttime" property="inserttime"/>
+        <result column="updatetime" property="updatetime"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+                order_id,
+                user_id,
+                order_no,
+                isactive,
+                inserttime,
+                updatetime
+    </sql>
+
+    <select id="queryOrderByPage" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select * from t_order order by order_id desc limit #{start},#{end};
+    </select>
+
+    <select id="queryOrderByOrderNo" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select * from t_order where order_no = #{orderNo} order by user_id desc;
+    </select>
+
+    <select id="countOrderByOrderNo" parameterType="java.lang.String" resultType="java.lang.Integer">
+        select count(1) from t_order where order_no = #{orderNo};
+    </select>
+
+    <select id="queryOrderByOrderId" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select * from t_order where order_id = #{orderId};
+    </select>
+
+    <select id="queryOrderByUserId" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select * from t_order where user_id = #{userId};
+    </select>
+
+    <select id="getOrderByOrderIdAndUserId" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select * from t_order where order_id = #{orderId} and user_id = #{userId};
+    </select>
+
+    <insert id="insert" parameterType="com.halo.model.entity.TOrder">
+        INSERT INTO t_order
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test='null != info.userId'>
+                user_id,
+            </if>
+            <if test='null != info.orderId'>
+                order_id,
+            </if>
+            <if test='null != info.orderNo'>
+                order_no,
+            </if>
+            <if test='null != info.isactive'>
+                isactive,
+            </if>
+            <if test='null != info.inserttime'>
+                inserttime,
+            </if>
+            <if test='null != info.updatetime'>
+                updatetime
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test='null != info.userId'>
+                #{info.userId},
+            </if>
+            <if test='null != info.orderId'>
+                #{info.orderId},
+            </if>
+            <if test='null != info.orderNo'>
+                #{info.orderNo},
+            </if>
+            <if test='null != info.isactive'>
+                #{info.isactive},
+            </if>
+            <if test='null != info.inserttime'>
+                #{info.inserttime},
+            </if>
+            <if test='null != info.updatetime'>
+                #{info.updatetime}
+            </if>
+        </trim>
+    </insert>
+
+</mapper>

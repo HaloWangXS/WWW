@@ -2,15 +2,48 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="web:war exploded" />
+      <artifact name="halo-web:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$USER_HOME$/SoucheProject/single/mtl-crm-bak/web/config/optimus/beans/application-optimus-datasource.xml" description="&lt;list&gt;" line="65" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="91f66698-b130-4f19-b1c3-d7e2970428e5" name="Default" comment="" />
+    <list default="true" id="91f66698-b130-4f19-b1c3-d7e2970428e5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/halo/annotation/RequestLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/halo/aspect/RequestLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/halo/dao/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/halo/json/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/halo/model/entity/TOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/halo/utils/SequenceIdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/sqlmap/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/halo/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/halo/dao/SecKillDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/halo/dao/SuccessKilledDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/halo/dao/base/BaseDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/halo/model/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/halo/model/entity/SecKill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/halo/model/entity/SuccessKilled.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/halo/service/SecKillService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/halo/service/impl/SecKillServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/halo/utils/MD5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/config/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/config/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/config/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/config/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/config/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/config/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/sqlmap/SecKillDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/sqlmap/SuccessKilledDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/test/com/halo/service/SeckKillTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/web/target/" />
     <ignored path="$PROJECT_DIR$/api/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,25 +54,17 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/json/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            <state relative-caret-position="238">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="76" column="30" lean-forward="true" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -47,43 +72,45 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Aspect" />
+        <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>springfox-swagger2</find>
-      <find>org.codehaus.jackson</find>
-      <find>jackson.version</find>
-      <find>io.springfox</find>
-      <find>controller</find>
-      <find>springMVC</find>
-      <find>jackson-databind</find>
-      <find>&lt;mvc:default-servlet-handler /&gt;</find>
-      <find>&lt;context:annotation-config /&gt;</find>
-      <find>databind</find>
-      <find>spring-context</find>
-      <find>spring.version</find>
-      <find>&lt;dependency&gt; 			&lt;groupId&gt;mysql&lt;/groupId&gt; 			&lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt; 		&lt;/dependency&gt;</find>
-      <find>mysql-connector-java</find>
-      <find>mysql.connector.version</find>
-      <find>jdbc.driver</find>
-      <find>org.springframework.web.context.ContextLoaderListener</find>
-      <find>ContextLoaderListener</find>
-      <find>contextConfigLocation</find>
-      <find>org.springframework.web.context.ContextLoaderServlet</find>
-      <find>org.springframework.web.servlet.DispatcherServlet</find>
-      <find>CONFIG_LOCATION_PARAM</find>
-      <find>&lt;context:annotation-config/&gt;</find>
-      <find>annotation-config</find>
-      <find>initStrategies</find>
-      <find>org.springframework.web.filter.CharacterEncodingFilter</find>
-      <find>isPrototype</find>
-      <find>getBeanFactory</find>
-      <find>getBean</find>
-      <find>1.0-SNAPSHOT</find>
+      <find>groovy</find>
+      <find>druid</find>
+      <find>orderItemTableStrategy</find>
+      <find>property-placeholder</find>
+      <find>servlet-name</find>
+      <find>listener</find>
+      <find>jdbc</find>
+      <find>jdbc.username_0</find>
+      <find>sharding-jdbc-core</find>
+      <find>orderTableStrategy</find>
+      <find>final route result is 0 target</find>
+      <find>Logic SQL</find>
+      <find>After database</find>
+      <find>will not be managed by Spring</find>
+      <find>sharding</find>
+      <find>SAP角色选择错误</find>
+      <find>TableShardInterceptor</find>
+      <find>t_order_0</find>
+      <find>A</find>
+      <find>SqlSessionFactoryBean</find>
+      <find>sharding-sphere.version</find>
+      <find>db1</find>
+      <find>OrderController</find>
+      <find>IdGenerator</find>
+      <find>userId</find>
+      <find>id</find>
+      <find>sharding.jdbc.version</find>
+      <find>sactive</find>
+      <find>setDatabaseShardingValue</find>
+      <find>sharding-rule</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -99,24 +126,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/api/pom.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/model/vo/User.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/model/User.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/dao/base/BaseDao.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/dao/base/UserDao.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/UserDao.java" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/test/jdbcTest/UserTset.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/test/UserTset.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/utils/MD5Util.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/model/Result.java" />
-        <option value="$PROJECT_DIR$/web/src/main/swagger/dist/index.html" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/dist/index.html" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/service/UserService.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/config/log4j.properties" />
         <option value="$PROJECT_DIR$/web/src/main/resources/config/logback.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/config/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/halo/model/vo/UserVo.java" />
         <option value="$PROJECT_DIR$/web/src/main/test/com/halo/service/UserTest.java" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/sweager/index.html" />
@@ -126,13 +136,8 @@
         <option value="$PROJECT_DIR$/web/src/main/java/com/halo/json/api/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/halo/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/halo/json/api/UserController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/config/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/config/applicationContext.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/halo/model/UserDo.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/halo/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/config/jdbc.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/halo/model/SecKill.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/halo/model/SuccessKilled.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/halo/service/impl/SecKillService.java" />
@@ -146,9 +151,40 @@
         <option value="$PROJECT_DIR$/web/src/main/java/com/halo/dao/SuccessKilledDao.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/sqlmap/SuccessKilledDao.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/halo/service/impl/SecKillServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/practice/aop/service/Notify.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/practice/aop/service/EmailNotice.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/practice/aop/RequestLogAspect.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/practice/aop/aspect/RequestLog.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/practice/aop/service/pointCutService.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/practice/aop/service/PointCutService.java" />
+        <option value="$PROJECT_DIR$/web/src/main/test/com/halo/service/PointCutLogTest.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/practice/aop/aspect/RequestLogAspect.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/cn/practice/aop/service/proxyTest.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/model/entity/TOrderInfo.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/config/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/config/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/sqlmap/orderMapper.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/model/entity/TOrder.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/utils/SequenceIdGenerator.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/dao/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/sqlmap/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/annotation/TableShard.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/annotation/RequestLog.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/aspect/RequestLogAspect.java" />
         <option value="$PROJECT_DIR$/web/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/halo/json/OrderController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/config/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/config/jdbc.properties" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -176,15 +212,6 @@
           <item name="frame-context" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="halo-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="halo-web Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -192,10 +219,12 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="797" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -203,6 +232,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,17 +250,116 @@
               <item name="Halo-SSM" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Halo-SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Halo-SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Halo-SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Halo-SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Halo-SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Halo-SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Halo-SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Halo-SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="halo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Halo-SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Halo-SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="halo" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Halo-SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Halo-SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Halo-SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Halo-SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Halo-SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Halo-SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlmap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Halo-SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Halo-SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Halo-SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Halo-SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Halo-SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Halo-SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Halo-SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Halo-SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Bean&#9;FILE&#9;jar:///Users/yg/.m2/repository/org/springframework/spring-beans/4.0.6.RELEASE/spring-beans-4.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java&#10;web.xml&#9;FILE&#9;file:///Users/yg/SoucheProject/optimus/Halo-SSM/web/src/main/webapp/WEB-INF/web.xml" />
+    <property name="SearchEverywhereHistoryKey" value="ShardingConnection&#9;FILE&#9;jar:///Users/yg/.m2/repository/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1-sources.jar!/com/dangdang/ddframe/rdb/sharding/jdbc/ShardingConnection.java&#10;SQLRouteEngine&#9;FILE&#9;jar:///Users/yg/.m2/repository/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1-sources.jar!/com/dangdang/ddframe/rdb/sharding/router/SQLRouteEngine.java&#10;SQLParserFactory&#9;PSI&#9;JAVA://com.dangdang.ddframe.rdb.sharding.parser.SQLParserFactory&#10;SQLParseEngine&#9;PSI&#9;JAVA://com.dangdang.ddframe.rdb.sharding.parser.SQLParseEngine&#10;SingleTableRouter&#9;PSI&#9;JAVA://com.dangdang.ddframe.rdb.sharding.router.single.SingleTableRouter&#10;BeanPostProcessor&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanPostProcessor&#10;singletonObjects&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.DefaultSingletonBeanRegistry#singletonObjects&#10;TypeFilter&#9;PSI&#9;JAVA://org.springframework.core.type.filter.TypeFilter&#10;BeanDefinition&#9;PSI&#9;JAVA://org.springframework.beans.factory.config.BeanDefinition&#10;putForNullKey&#9;PSI&#9;JAVA://com.alibaba.fastjson.util.AntiCollisionHashMap#putForNullKey&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;indexFor&#9;PSI&#9;JAVA://javafx.scene.image.PixelFormat.IndexedPixelFormat&#10;Bean&#9;FILE&#9;jar:///Users/yg/.m2/repository/org/springframework/spring-beans/4.0.6.RELEASE/spring-beans-4.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java&#10;web.xml&#9;FILE&#9;file:///Users/yg/SoucheProject/optimus/Halo-SSM/web/src/main/webapp/WEB-INF/web.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -239,7 +368,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -250,9 +379,11 @@
       <recent name="$PROJECT_DIR$/web/src/main/java/com/halo/dao/base" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.halo.aspect" />
       <recent name="com.halo.model.vo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/src/main/test/com/halo/service" />
       <recent name="$PROJECT_DIR$/web/src/main/resources/sqlmap" />
       <recent name="$PROJECT_DIR$/web/src/main/webapp" />
     </key>
@@ -269,67 +400,109 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.sqlmap in halo-web">
+  <component name="RunManager" selected="Tomcat Server.Halo">
+    <configuration name="SequenceIdGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.halo.utils.SequenceIdGenerator" />
+      <module name="halo-web" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.halo.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web" />
+    <configuration name="PointCutLogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="halo-web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.halo.service.*" />
+          <option name="PATTERN" value="halo.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.halo.service" />
-      <option name="MAIN_CLASS_NAME" value="com.halo.service.UserTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="halo.service" />
+      <option name="MAIN_CLASS_NAME" value="halo.service.PointCutLogTest" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration name="UserTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web" />
+    <configuration name="PointCutLogTest.pointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="halo-web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.halo.service.*" />
+          <option name="PATTERN" value="halo.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.halo.service" />
-      <option name="MAIN_CLASS_NAME" value="com.halo.service.UserTest" />
-      <option name="METHOD_NAME" value="addUser" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="halo.service" />
+      <option name="MAIN_CLASS_NAME" value="halo.service.PointCutLogTest" />
+      <option name="METHOD_NAME" value="pointTest" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration name="UserTest.listUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web" />
+    <configuration name="SeckKillTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="halo-web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.halo.service.*" />
+          <option name="PATTERN" value="halo.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.halo.service" />
-      <option name="MAIN_CLASS_NAME" value="com.halo.service.UserTest" />
-      <option name="METHOD_NAME" value="listUsers" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="halo.service" />
+      <option name="MAIN_CLASS_NAME" value="halo.service.SeckKillTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -341,10 +514,191 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="sqlmap" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Halo" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://local.dasouche.net:8899/" />
+      <deployment>
+        <artifact name="halo-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Halo-SSM" />
+        <option name="HTTP_PORT" value="8899" />
+        <option name="JNDI_PORT" value="10998" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59505" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="DEBUG_PORT" value="62486" />
+        <option name="visualVMId" value="58510360875134" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web:war exploded" />
+          <artifact name="halo-web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8888/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Halo-SSM" />
+        <option name="HTTP_PORT" value="8888" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59505" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -357,159 +711,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Halo" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
-      <option name="OPEN_IN_BROWSER_URL" value="http://local.dasouche.net:8899/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="web:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Halo-SSM" />
-        <option name="HTTP_PORT" value="8899" />
-        <option name="JNDI_PORT" value="10998" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59505" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="web:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8888/" />
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_Halo-SSM" />
-        <option name="HTTP_PORT" value="8888" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59505" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.UserTest.listUsers" />
-      <item itemvalue="JUnit.UserTest.addUser" />
-      <item itemvalue="JUnit.UserTest" />
-      <item itemvalue="JUnit.sqlmap in halo-web" />
       <item itemvalue="Tomcat Server.Halo" />
+      <item itemvalue="Application.SequenceIdGenerator" />
+      <item itemvalue="JUnit.sqlmap in halo-web" />
+      <item itemvalue="JUnit.PointCutLogTest.pointTest" />
+      <item itemvalue="JUnit.PointCutLogTest" />
+      <item itemvalue="JUnit.SeckKillTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SequenceIdGenerator" />
+        <item itemvalue="JUnit.PointCutLogTest.pointTest" />
+        <item itemvalue="JUnit.PointCutLogTest" />
+        <item itemvalue="JUnit.SeckKillTest" />
         <item itemvalue="JUnit.sqlmap in halo-web" />
-        <item itemvalue="JUnit.UserTest.listUsers" />
-        <item itemvalue="JUnit.UserTest.addUser" />
-        <item itemvalue="JUnit.UserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -543,43 +759,57 @@
       <workItem from="1560692601119" duration="26000" />
       <workItem from="1560692892566" duration="6181000" />
       <workItem from="1560699557664" duration="305000" />
+      <workItem from="1560907591315" duration="1225000" />
+      <workItem from="1561192388256" duration="996000" />
+      <workItem from="1561561436440" duration="22000" />
+      <workItem from="1566742880075" duration="153000" />
+      <workItem from="1569422046927" duration="8785000" />
+      <workItem from="1569638278729" duration="5017000" />
+      <workItem from="1571637634869" duration="565000" />
+      <workItem from="1572437973213" duration="504000" />
+      <workItem from="1572663407938" duration="550000" />
+      <workItem from="1572788355552" duration="45000" />
+      <workItem from="1572873923822" duration="218000" />
+      <workItem from="1573375201174" duration="4712000" />
+      <workItem from="1573712948054" duration="52519000" />
+      <workItem from="1574328416145" duration="422000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserTest_listUsers - 2019.01.26 at 18h 07m 47s.xml">
-      <configuration name="UserTest.listUsers" configurationId="JUnit" />
+    <history-entry file="PointCutLogTest - 2019.09.25 at 23h 39m 10s.xml">
+      <configuration name="PointCutLogTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_listUsers - 2019.01.26 at 18h 09m 21s.xml">
-      <configuration name="UserTest.listUsers" configurationId="JUnit" />
+    <history-entry file="PointCutLogTest_pointTest - 2019.09.25 at 23h 42m 15s.xml">
+      <configuration name="PointCutLogTest.pointTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_listUsers - 2019.01.26 at 18h 10m 18s.xml">
-      <configuration name="UserTest.listUsers" configurationId="JUnit" />
+    <history-entry file="PointCutLogTest_pointTest - 2019.09.25 at 23h 42m 23s.xml">
+      <configuration name="PointCutLogTest.pointTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_listUsers - 2019.01.26 at 18h 12m 03s.xml">
-      <configuration name="UserTest.listUsers" configurationId="JUnit" />
+    <history-entry file="PointCutLogTest_pointTest - 2019.09.25 at 23h 44m 34s.xml">
+      <configuration name="PointCutLogTest.pointTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_listUsers - 2019.01.26 at 18h 13m 09s.xml">
-      <configuration name="UserTest.listUsers" configurationId="JUnit" />
+    <history-entry file="PointCutLogTest_pointTest - 2019.09.25 at 23h 45m 44s.xml">
+      <configuration name="PointCutLogTest.pointTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_listUsers - 2019.01.26 at 18h 14m 17s.xml">
-      <configuration name="UserTest.listUsers" configurationId="JUnit" />
+    <history-entry file="PointCutLogTest_pointTest - 2019.09.25 at 23h 46m 57s.xml">
+      <configuration name="PointCutLogTest.pointTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_listUsers - 2019.01.26 at 18h 17m 49s.xml">
-      <configuration name="UserTest.listUsers" configurationId="JUnit" />
+    <history-entry file="PointCutLogTest - 2019.09.26 at 00h 05m 32s.xml">
+      <configuration name="PointCutLogTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_listUsers - 2019.01.26 at 18h 18m 31s.xml">
-      <configuration name="UserTest.listUsers" configurationId="JUnit" />
+    <history-entry file="SeckKillTest - 2019.09.26 at 00h 07m 38s.xml">
+      <configuration name="SeckKillTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_listUsers - 2019.01.26 at 18h 34m 10s.xml">
-      <configuration name="UserTest.listUsers" configurationId="JUnit" />
+    <history-entry file="PointCutLogTest - 2019.09.26 at 00h 08m 20s.xml">
+      <configuration name="PointCutLogTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_listUsers - 2019.01.26 at 18h 35m 46s.xml">
-      <configuration name="UserTest.listUsers" configurationId="JUnit" />
+    <history-entry file="PointCutLogTest_pointTest - 2019.09.26 at 00h 08m 48s.xml">
+      <configuration name="PointCutLogTest.pointTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79731000" />
+    <option name="totallyTimeSpent" value="155464000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -594,231 +824,301 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49501246" visible="true" weight="0.3168264" />
-      <window_info id="Structure" order="1" sideWeight="0.50498754" side_tool="true" weight="0.3008596" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Designer" order="4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.3950495" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33291772" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299389" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299389" />
-      <window_info anchor="bottom" id="SonarLint" order="8" weight="0.3299389" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.26683292" />
-      <window_info anchor="bottom" id="Spring" order="10" weight="0.3299389" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007163" side_tool="true" weight="0.39526185" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3299389" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="15" weight="0.3299389" />
-      <window_info anchor="bottom" id="Application Servers" order="16" />
-      <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" order="18" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32808024" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Mybatis datasource" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.26683292" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3299389" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007163" side_tool="true" weight="0.39526185" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32593122" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.3117207" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Mybatis datasource" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.3299389" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32917705" />
+      <window_info id="Designer" order="4" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="16" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49501246" visible="true" weight="0.20095949" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="8" weight="0.3299389" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info id="Structure" order="1" sideWeight="0.50498754" side_tool="true" weight="0.3008596" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4551935" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="18" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Maven" order="7" visible="true" weight="0.32960597" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" order="16" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49501246" visible="true" weight="0.3051576" />
-      <window_info id="Structure" order="1" sideWeight="0.50498754" side_tool="true" weight="0.3008596" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Designer" order="4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.39526185" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33291772" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299389" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299389" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.39526185" />
       <window_info anchor="bottom" id="SonarLint" order="8" weight="0.3299389" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.26683292" />
-      <window_info anchor="bottom" id="Spring" order="10" weight="0.3299389" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007163" side_tool="true" weight="0.39526185" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3299389" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="15" weight="0.3299389" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49501246" visible="true" weight="0.3051576" />
+      <window_info id="Structure" order="1" sideWeight="0.50498754" side_tool="true" weight="0.3008596" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299389" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299389" />
+      <window_info id="Designer" order="4" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.3299389" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32808024" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Mybatis datasource" order="5" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Mybatis datasource" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007163" side_tool="true" weight="0.39526185" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3299389" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="15" weight="0.3299389" />
+      <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/cn/practice/aop/aspect/RequestLogAspect.java</url>
+          <line>13</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/cn/practice/aop/aspect/RequestLogAspect.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/cn/practice/aop/aspect/RequestLogAspect.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1-sources.jar!/com/dangdang/ddframe/rdb/sharding/jdbc/ShardingPreparedStatement.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/com/halo/aspect/RequestLogAspect.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="48" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE.jar!/org/springframework/context/ApplicationContext.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.6.RELEASE/spring-web-4.0.6.RELEASE-sources.jar!/org/springframework/web/context/support/AnnotationConfigWebApplicationContext.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.6.RELEASE/spring-beans-4.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.6.RELEASE/spring-beans-4.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/HierarchicalBeanFactory.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.6.RELEASE/spring-beans-4.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/ListableBeanFactory.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.6.RELEASE/spring-core-4.0.6.RELEASE.jar!/org/springframework/core/env/EnvironmentCapable.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE-sources.jar!/org/springframework/context/MessageSource.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.6.RELEASE/spring-core-4.0.6.RELEASE-sources.jar!/org/springframework/core/io/support/ResourcePatternResolver.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE-sources.jar!/org/springframework/context/ApplicationEventPublisher.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.6.RELEASE/spring-core-4.0.6.RELEASE-sources.jar!/org/springframework/core/env/EnvironmentCapable.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.6.RELEASE/spring-web-4.0.6.RELEASE-sources.jar!/org/springframework/web/context/support/GenericWebApplicationContext.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.6.RELEASE/spring-web-4.0.6.RELEASE-sources.jar!/org/springframework/web/context/WebApplicationContext.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE-sources.jar!/org/springframework/context/ApplicationContext.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.6.RELEASE/spring-beans-4.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractXmlApplicationContext.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/config/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/web/src/main/test/com/halo/service/PointCutLogTest.java" />
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/cn/practice/aop/aspect/RequestLog.java" />
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/cn/practice/aop/service/PointCutService.java" />
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/cn/practice/aop/aspect/RequestLogAspect.java" />
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/config/SwaggerConfig.java" />
+    <entry file="file://$PROJECT_DIR$/web/src/main/test/com/halo/service/SeckKillTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.6.RELEASE/spring-core-4.0.6.RELEASE.jar!/org/springframework/core/AttributeAccessor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="56" column="68" selection-start-line="56" selection-start-column="68" selection-end-line="56" selection-end-column="68" />
+        <state relative-caret-position="34">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.0.6.RELEASE/spring-beans-4.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/json/api/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/dao/UserDao.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/model/vo/UserVo.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/model/UserDo.java" />
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/config/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/sqlmap/test.xml" />
+    <entry file="file://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-config-spring/1.4.1/sharding-jdbc-config-spring-1.4.1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/utils/LuceneUtils.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/config/jdbc.properties">
+    <entry file="file://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="136">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/config/SwaggerConfig.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/config/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.5/druid-1.0.5.jar!/com/alibaba/druid/sql/dialect/mysql/parser/MySqlStatementParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="171" column="11" selection-start-line="171" selection-start-column="11" selection-end-line="171" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/service/impl/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/sqlmap/UserMapper.xml" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Objects.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1-sources.jar!/com/dangdang/ddframe/rdb/sharding/jdbc/ShardingStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="243" column="17" lean-forward="true" selection-start-line="243" selection-start-column="17" selection-end-line="243" selection-end-column="17" />
-          <folding>
-            <element signature="e#8380#8381#0" expanded="true" />
-            <element signature="e#8414#8415#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="444">
+          <caret line="291" column="59" lean-forward="true" selection-start-line="291" selection-start-column="59" selection-end-line="291" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/model/Result.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1-sources.jar!/com/dangdang/ddframe/rdb/sharding/parser/SQLParseEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        <state relative-caret-position="-60">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/utils/MD5Util.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1-sources.jar!/com/dangdang/ddframe/rdb/sharding/executor/PreparedStatementExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="115">
+          <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/service/impl/SecKillServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.7/mybatis-3.2.7.jar!/org/apache/ibatis/executor/statement/PreparedStatementHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/service/SecKillService.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/shardingsphere/sharding-jdbc-core/4.0.0-RC2/sharding-jdbc-core-4.0.0-RC2.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/config/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="187">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/model/entity/SuccessKilled.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/dao/base/BaseDao.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.7/mybatis-3.2.7.jar!/org/apache/ibatis/session/SqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="487" selection-start-line="487" selection-end-line="487" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/MyBatisExceptionTranslator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar!/org/apache/commons/logging/LogFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="67" column="64" selection-start-line="67" selection-start-column="64" selection-end-line="67" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1-sources.jar!/com/dangdang/ddframe/rdb/sharding/router/single/SingleTableRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1-sources.jar!/com/dangdang/ddframe/rdb/sharding/parser/SQLParserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE.jar!/org/springframework/stereotype/Repository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1-sources.jar!/com/dangdang/ddframe/rdb/sharding/api/rule/ShardingRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1-sources.jar!/com/dangdang/ddframe/rdb/sharding/jdbc/ShardingContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar!/org/mybatis/spring/SqlSessionTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/UUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="138" column="39" lean-forward="true" selection-start-line="138" selection-start-column="39" selection-end-line="138" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/utils/SequenceIdGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/annotation/RequestLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/dao/SuccessKilledDao.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/aspect/RequestLogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/sqlmap/SuccessKilledDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="67" lean-forward="true" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/dao/SecKillDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/sqlmap/SecKillDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/model/entity/SecKill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="44">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -826,18 +1126,118 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="578">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/model/entity/TOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/config/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/sqlmap/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/dao/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.7/mybatis-3.2.7.jar!/org/apache/ibatis/logging/jdbc/PreparedStatementLogger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1-sources.jar!/com/dangdang/ddframe/rdb/sharding/jdbc/adapter/AbstractPreparedStatementAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1-sources.jar!/com/dangdang/ddframe/rdb/sharding/jdbc/ShardingPreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="156" selection-start-line="156" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1-sources.jar!/com/dangdang/ddframe/rdb/sharding/router/PreparedSQLRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1-sources.jar!/com/dangdang/ddframe/rdb/sharding/router/SQLRouteEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="76" column="30" lean-forward="true" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+        <state relative-caret-position="17">
+          <caret line="248" column="20" selection-start-line="248" selection-start-column="20" selection-end-line="248" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/sharding-jdbc-core/1.4.1/sharding-jdbc-core-1.4.1-sources.jar!/com/dangdang/ddframe/rdb/sharding/jdbc/ShardingConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="119" column="4" lean-forward="true" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/config/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/config/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/halo/json/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -847,11 +1247,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>web:war</last-edited>
+          <last-edited>halo-web:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -905,7 +1306,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>halo-api</last-edited>
+          <last-edited>halo-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
