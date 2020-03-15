@@ -12,9 +12,11 @@ public class MyRunnable implements Runnable {
 
     @Override
     public void run() {
-        System.out.println(Thread.currentThread().getName() + " Start. Time = " + new Date());
-        processCommand();
-        System.out.println(Thread.currentThread().getName() + " End. Time = " + new Date());
+        while(true) {
+            System.out.println(Thread.currentThread().getName() + " Start. Time = " + new Date());
+        }
+        //processCommand();
+        //System.out.println(Thread.currentThread().getName() + " End. Time = " + new Date());
     }
 
     private void processCommand() {
