@@ -70,4 +70,15 @@
         <property name="maxUploadSize" value="5242880"/>
     </bean>
 
+    <!--拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean id="authInterceptor" class="com.halo.Interceptor.AuthInterceptor"></bean>
+        </mvc:interceptor>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean id="logInterceptor" class="com.halo.Interceptor.LogInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>
